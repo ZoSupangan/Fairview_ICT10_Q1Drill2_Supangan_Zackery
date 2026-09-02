@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <title>Fairview_ICT10_Q1Drill2_Supangan_Zackery</title>
+<style>
+
+
+        #result {
+            color: rgb(27, 151, 79);
+            font-size: 25px;
+            text-align: center;
+            margin: 20px auto;
+            padding: 15px;
+            width: 60%;
+        }
+
+        input {
+            text-align: center;
+            margin: 5px;
+            padding: 8px;
+        }
+
+        
+    </style>
+
+</head>
+<body>
+        <form>
+            <input type="number" id="num1" placeholder="Enter first number"><br>
+            <input type="number" id="num2" placeholder="Enter second number"><br>
+            <input type="button" py-click="add_numbers" value="Add">
+             <input type="button" py-click="multiply_numbers" value="Multiply">
+            <input type="button" py-click="divide_numbers" value="Divide">
+            <input type="button" py-click="subtract_numbers" value="Subtract">
+
+        </form>
+    
+    <div id="result"></div>
+    <py-script src="main.py"></py-script>
+    
+</body>
+</html>
